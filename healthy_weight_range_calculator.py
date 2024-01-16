@@ -4,8 +4,7 @@ import pint
 
 def calculate_bmi(weight, height):
 
-    bmi = weight / (height / 100) ** 2
-    return bmi
+    return weight / (height / 100) ** 2
 
 def healthy_weight_range(height):
     lower_bmi = 18.5
